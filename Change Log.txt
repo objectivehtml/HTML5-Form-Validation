@@ -1,0 +1,31 @@
+/**
+* HTML5 Form Validation
+* Author: Objective HTML (Justin Kimbrell)
+* Build: 1.6 - January 29, 2012
+* Copyright 2012 - All rights reserved
+* http://objectivehtml.com
+*/
+
+Version 1.6 - 1/29/2012
+-----------------------
+Updated the way select elements are validated, giving them their own bind event sequence making the experience much more pleasant. Also updated the placeholder plugin to better represent the placeholder according to the W3C standard (like Webkit). Also changed the name of the plugin.
+
+
+Version 1.4.6 - 5/2/2011
+------------------------
+A bug fix within the $._val() function preventing forms that had the reset value enabled from validating correctly with a placeholder value present.
+
+
+Version 1.4.6 - 5/2/2011
+------------------------
+A bug fix within the $._val() function preventing forms that had the reset value enabled from validating correctly with a placeholder value present.
+
+
+Version 1.4.5 - 4/21/2011
+-------------------------
+A regex constants were added as well as fixing a typo in the regex array.
+	
+
+Version 1.4 - 4/1/2011
+----------------------
+Implemented a number of major bug fixes as the first the plugin was made available to the public. 1.4 marks the start of the first truly stable version. This is also the starting point of the change log.
