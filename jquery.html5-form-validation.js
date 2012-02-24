@@ -1,7 +1,7 @@
 /**
 * jQuery HTML5 Form Validator
 * Author: Objective HTML (Justin Kimbrell)
-* Build: 1.6 - January 29, 2012
+* Build: 1.6.1 - February 23, 2012
 * Copyright 2012 - All rights reserved
 * http://objectivehtml.com
 */
@@ -15,7 +15,7 @@ var _count = 0, _inline_regex = [], _options = [], _default = {
 		before: '',
 		after:	'',
 		active: '',
-		input: {		
+		input: {	
 			before: 'focus',
 			after:  'blur',
 			active: 'keyup'
@@ -236,7 +236,7 @@ _inline_regex['credit-card-expiration'] = /^([0-9]{2})+\/+([0-9]{2})$/;
 				//Bind the Before method to the Before event
 				$t.addClass(options.classes.before);
 				
-				if($t.is('input')) {
+				if(input.is('input')) {
 					options.bind.before = options.bind.input.before;
 					options.bind.after  = options.bind.input.after;
 					options.bind.active = options.bind.input.active;
@@ -435,7 +435,7 @@ _inline_regex['credit-card-expiration'] = /^([0-9]{2})+\/+([0-9]{2})$/;
 		
 		setCursorPosition: function(pos) {
 			if ($(this).get(0).setSelectionRange) {
-				$(this).get(0).setSelectionRange(pos, pos);
+				$(this).get(0).setSelectionRangeview.run_command('compress');(pos, pos);
 			} else if ($(this).get(0).createTextRange) {
 				var range = $(this).get(0).createTextRange();
 				range.collapse(true);
