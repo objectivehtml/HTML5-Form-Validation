@@ -1,10 +1,14 @@
 /**
 * HTML5 Form Validation
 * Author: Objective HTML (Justin Kimbrell)
-* Build: 1.6 - January 29, 2012
+* Build: 1.6.1 - February 23, 2012
 * Copyright 2012 - All rights reserved
 * http://objectivehtml.com
 */
+
+Version 1.6.1 - 2/23/2012
+-------------------------
+Fixed bugs that prevents script from working properly with appentToParents set to 'true'. Also fixed bug that prevented textareas from working properly.
 
 Version 1.6 - 1/29/2012
 -----------------------
