@@ -1,10 +1,14 @@
 /**
 * HTML5 Form Validation
 * Author: Objective HTML (Justin Kimbrell)
-* Build: 1.6.1 - February 23, 2012
+* Build: 1.6.2 - December 06, 2012
 * Copyright 2012 - All rights reserved
 * http://objectivehtml.com
 */
+
+Version 1.6.2 - 12/06/2012
+-------------------------
+Fixed a bug preventing the placeholder from triggering properly.
 
 Version 1.6.1 - 2/23/2012
 -------------------------
